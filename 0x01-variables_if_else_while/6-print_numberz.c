@@ -11,14 +11,11 @@
 int main(void)
 {
 
-	int c;
-	int hi[20];
+	int ch;
 
-	for (c = 0; c <= 9; c++)
+	for (ch = '0'; ch <= '9'; ch++)
 	{
-		hi[c] = c;
-		/*printf("%d", hi[c]); */
-		putchar(hi[c]);
+		putchar(ch);
 	}
 	return (0);
 }
