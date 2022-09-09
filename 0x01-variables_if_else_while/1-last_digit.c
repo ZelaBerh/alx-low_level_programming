@@ -25,15 +25,15 @@ int main(void)
 	
     if (last_digit > 5)
     {
-        printf("Last digit of %d is %d %s", n, last_digit, greater);
+        printf("Last digit of %d is %d %s ", n, last_digit, greater);
     }
     else if (last_digit < 6 && last_digit != 0)
     {
-        printf("Last digit of %d is %d %s", n, last_digit, less);
+        printf("Last digit of %d is %d %s ", n, last_digit, less);
     }
     else
     {
-        printf("Last digit of %d is %d %s", n, last_digit, zero);
+        printf("Last digit of %d is %d %s ", n, last_digit, zero);
     }
     
 	return (0);
