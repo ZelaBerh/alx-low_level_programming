@@ -8,11 +8,13 @@
  * Return: 0
  */
 
+
  int main()
  {
-	char letters[] = "abcdefghijklmnopqrstuvwxyz";
-
-	putchar(letters);
-
+	for(int x = 'A'; x <= 'Z'; x++)
+	{
+	x = tolower(x);
+	putchar(x);
+	}
 	return (0);
  }
