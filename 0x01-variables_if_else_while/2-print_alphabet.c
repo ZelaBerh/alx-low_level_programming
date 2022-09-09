@@ -8,7 +8,6 @@
  * Return: 0
  */
 
-
  int main()
  {
 	for(int x = 'A'; x <= 'Z'; x++)
