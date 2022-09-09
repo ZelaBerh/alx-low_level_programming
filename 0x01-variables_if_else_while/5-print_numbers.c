@@ -1,22 +1,21 @@
 #include <stdio.h>
-
+  
 /**
  * main - Entry point
  *
- * Description: prints numbers
+ * Description: prints alphabet
  *
  * Return: 0
  */
 
-int main(void)
-{
-	int x;
 
-	for (x = 0; x < 10; x++)
-	{
-		putchar(x);
-	}
-	putchar('\n');
+int main()
+{
+
+	char ch = '1';
+
+	for (ch = '0'; ch <= '9'; ch++)
+		putchar(ch);
 
 	return (0);
 }
