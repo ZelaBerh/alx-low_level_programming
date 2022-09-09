@@ -17,10 +17,10 @@ int main(void)
     char less[50] = "and is less than 6 and not 0";
     char zero[50] = "and is 0";
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-    last_digit = n%10;
-	
+    srand(time(0));
+    n = rand() - RAND_MAX / 2;
+    last_digit = n % 10;
+
     if (last_digit > 5)
     {
         printf("Last digit of %d is %d %s\n", n, last_digit, greater);
