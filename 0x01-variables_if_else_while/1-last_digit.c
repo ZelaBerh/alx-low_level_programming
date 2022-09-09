@@ -33,6 +33,7 @@ int main(void)
     {
         printf("Last digit of %d is %d %s\n", n, last_digit, zero);
     }
-    
+
     return (0);
+
 }
