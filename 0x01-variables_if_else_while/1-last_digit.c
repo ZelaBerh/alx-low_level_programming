@@ -2,7 +2,6 @@
 #include <time.h>
 #include <math.h>
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
@@ -13,11 +12,10 @@
 
 int main(void)
 {
-	int n, last_digit;
+    int n, last_digit;
     char greater[50] = "and is greater than 5";
     char less[50] = "and is less than 6 and not 0";
     char zero[50] = "and is 0";
-
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -36,5 +34,5 @@ int main(void)
         printf("Last digit of %d is %d %s\n", n, last_digit, zero);
     }
     
-	return (0);
+    return (0);
 }
