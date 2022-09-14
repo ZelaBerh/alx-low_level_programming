@@ -17,31 +17,38 @@ void times_table(void)
 	int num[120];
 	for (j = 0; j < 10; j++)
 	{
-	for (i = 0; i < 10; i++)
-	{
-		num[x] = j*i;
-		x++;
-	}
+		for (i = 0; i < 10; i++)
+		{
+			num[x] = j*i;
+			x++;
+		}
 	}
 
 	x=0;
+
 	for (j = 0; j < 10; j++)
 	{
-	for (i = 0; i < 10; i++)
-	{
-		
-		_putchar((num[x]/10) + '0');
-		_putchar((num[x]%10) + '0');
-		x++;
-		if (i<9)
+		for (i = 0; i < 10; i++)
 		{
-			_putchar(' , ');
-		}
-		else
-		{
-			_putchar('\n');
+			if((num[x]/10) == 0)
+			{
+				_putchar(' ');
+			}
+			else
+			{
+				_putchar((num[x]/10) + '0');
+			}
+			_putchar((num[x]%10) + '0');
+			x++;
+			if (i<9)
+			{
+				_putchar(' , ');
+			}
+			else
+			{
+				_putchar('\n');
+			}
 		}
 	}
-	}
-	
+
 }
