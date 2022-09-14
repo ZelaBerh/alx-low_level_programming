@@ -11,7 +11,7 @@ void print_alphabet(void)
 	char text[26] = "abcdefghijklmnoprstuvwxyz";
 	int i = 0;
 
-	while (i < 27)
+	while (i < 26)
 	{
 		_putchar(text[i]);
 		i++;
