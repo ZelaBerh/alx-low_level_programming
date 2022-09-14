@@ -6,10 +6,10 @@
  * Result: 0
  */
 
- int main(void)
- {
+int main(void)
+{
 
-	int i, j, x=0;
+	int i, j, x = 0;
 	int num[1024];
 	int sum = 0;
 
@@ -22,13 +22,12 @@
 		}
 	}
 
-	for (j = 0; j <= x; j++ )
+	for (j = 0; j <= x; j++)
 	{
 		sum = sum + num[j];
 	}
 
-	printf("%d",sum);
+	printf("%d\n", sum);
 
-	return 0;
- }
- 
+	return (0);
+}
