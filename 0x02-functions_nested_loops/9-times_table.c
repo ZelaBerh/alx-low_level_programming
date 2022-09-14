@@ -42,7 +42,8 @@ void times_table(void)
 			x++;
 			if (i<9)
 			{
-				_putchar(' , ');
+				_putchar(' ');
+				_putchar(',');
 			}
 			else
 			{
