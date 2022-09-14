@@ -2,8 +2,8 @@
 
 /**
  * main - entry point
- * Description: multiples of 3 and 5
- * Result: always 0 void
+ * Description: returns multiples of 3 and 5 sum
+ * Result: always 0 void sum
  */
 
 int main(void)
