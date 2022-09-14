@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - sum of multiples of
  * Description: returns multiples of 3 and 5 sum
  * Result: always 0 void sum
  */
