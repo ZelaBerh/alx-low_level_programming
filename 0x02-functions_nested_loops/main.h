@@ -1,6 +1,6 @@
 int _putchar(char a);
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	char text[26] = "abcdefghijklmnoprstuvwxyz";
 	int i = 0;
@@ -12,4 +12,4 @@ void print_alphabet(void);
 	}
 	_putchar('\n');
 	return (0);
-}
+};
