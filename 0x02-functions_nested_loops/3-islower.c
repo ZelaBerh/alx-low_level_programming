@@ -3,6 +3,8 @@
 /**
  * _islower - lowercase
  *
+ * Description: takes c input
+ *
  * Return: Always 0.
  */
 
