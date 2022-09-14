@@ -1,9 +1,4 @@
-#include <unistd.h>
-
-int _putchar(char a)
-{
-	return(write(1,&a,1));
-}
+int _putchar(char a);
 /*
 void print_alphabet(void)
 {
