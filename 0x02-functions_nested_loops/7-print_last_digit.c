@@ -13,10 +13,5 @@ int print_last_digit(int n)
 	int i,k;
 
 	k = n % 10;
-
-	for (i = 0; i <= 2; i++)
-	{
-		return (k);
-	}
 	return (k);
 }
