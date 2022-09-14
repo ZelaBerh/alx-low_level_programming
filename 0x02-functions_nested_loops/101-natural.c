@@ -3,7 +3,7 @@
 /**
  * main - entry point
  * Description: multiples of 3 and 5
- * Result: 0
+ * Result: always 0 void
  */
 
 int main(void)
