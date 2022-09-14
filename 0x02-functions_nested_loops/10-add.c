@@ -2,8 +2,8 @@
 
 /**
  * add - add
- *@a: num1 
- *@b: num2 
+ *@a: num1
+ *@b: num2
  * Return: Always 0.
  */
 
