@@ -6,8 +6,16 @@
  * Return: Always 0.
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
+	char text[26] = "abcdefghijklmnoprstuvwxyz";
+	int i = 0;
+
+	while (i < 27)
+	{
+		_putchar(text[i]);
+		i++;
+	}
+	_putchar('\n');
 	return (0);
 }
