@@ -8,7 +8,7 @@
 
 void print_alphabet(void)
 {
-	char text[26] = "abcdefghijklmnoprstuvwxyz";
+	char text[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i = 0;
 
 	while (i < 26)
