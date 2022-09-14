@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - sum of multiples of
- * Description: returns multiples of 3 and 5 sum
- * Result: always 0 void sum
+ * main - list all natural numbers multiples of 3 & 5
+ *
+ * Return: Always 0.
  */
 
 int main(void)
