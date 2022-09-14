@@ -2,7 +2,9 @@
 
 /**
  * main - check the code
+ *
  * Description: prints alphabet
+ *
  * Return: Always 0.
  */
 
