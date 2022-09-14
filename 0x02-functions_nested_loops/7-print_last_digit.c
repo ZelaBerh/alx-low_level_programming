@@ -12,7 +12,7 @@ int print_last_digit(int n)
 {
 	int i;
 
-	for (i = 0; i < 2; i++)
+	for (i = 0; i <= 2; i++)
 	{
 		return (n % 10);
 	}
