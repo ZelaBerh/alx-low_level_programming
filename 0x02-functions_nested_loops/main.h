@@ -1,5 +1,8 @@
-int _putchar(char a);
-
+int _putchar(char a)
+{
+	return(write(1,&a,1));
+}
+/*
 void print_alphabet(void)
 {
 	char text[26] = "abcdefghijklmnoprstuvwxyz";
@@ -12,3 +15,4 @@ void print_alphabet(void)
 	}
 	_putchar('\n');
 }
+*/
