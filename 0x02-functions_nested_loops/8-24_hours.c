@@ -15,13 +15,13 @@ void jack_bauer(void)
 	int i, j, k, l;
 	bool stop = false;
 
-	for (i = 0; i <3 && !stop ; i++)
+	for (i = 0; i < 3 && !stop ; i++)
 	{
-		for (j = 0; j <10 && !stop; j++)
+		for (j = 0; j < 10 && !stop; j++)
 		{
-			for (k = 0; k <6 && !stop; k++)
+			for (k = 0; k < 6 && !stop; k++)
 			{
-				for (l = 0; l <10 && !stop; l++)
+				for (l = 0; l < 10 && !stop; l++)
 				{
 					_putchar(i + '0');
 					_putchar(j + '0');
