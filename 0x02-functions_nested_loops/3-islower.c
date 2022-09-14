@@ -3,7 +3,7 @@
 /**
  * _islower - lowercase
  *
- * Description: takes c input
+ * @c: takes c input
  *
  * Return: Always 0.
  */
