@@ -1,28 +1,32 @@
 #include "main.h"
 
 /**
- * print_diagonal - prints disgonal
- *
- * Description: prints lines
+ * print_diagonal - draws diagonal x
+ * @n: number of times
  *
  * Return: void
  */
 
 void print_diagonal(int n)
 {
-	int i;
+	int x = 0;
+	int y;
 
 	if (n > 0)
 	{
-		for ( i = 0; i <= n; i++)
+		while (x < n)
 		{
-			_putchar('\');
+			for (y = 0; y < x; y++)
+			{
+				_putchar(' ');
+			}
+			_putchar('\\');
+			_putchar('\n');
+			x++;
 		}
-		_putchar('\n');
 	}
 	else
 	{
 		_putchar('\n');
 	}
-	
 }
