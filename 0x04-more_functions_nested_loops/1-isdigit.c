@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -6,7 +5,7 @@
  *
  * @c: takes c input
  *
- * Return: Always 0.
+ * Return: Always 1 or 0
  */
 
 int _isdigit(int c)
