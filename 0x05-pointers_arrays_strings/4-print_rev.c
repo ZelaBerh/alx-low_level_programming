@@ -29,7 +29,7 @@ ptr++;
 
 for ( j = count; j >= 0; j--)
 {
-b = *ptr[j];
+b = &ptr[j];
 _putchar(b);
 }
 
