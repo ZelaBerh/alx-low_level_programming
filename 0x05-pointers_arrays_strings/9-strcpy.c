@@ -12,25 +12,23 @@ char *_strcpy(char *dest, char *src)
 {
 
 int i;
-char *ptr;
 
-ptr = src;
 
-for (i = 0; ptr[i] != '\0'; i++)
+for (i = 0; src[i] != '\0'; i++)
 {
-	dest[i] = ptr[i];
-	if (ptr[i] == '\0')
+	dest[i] = src[i];
+	if (src[i] == '\0')
 	{
-		dest[i+1] = ptr[i+1];
+		dest[i+1] = src[i+1];
 	}
 }
 
-for (i = 0; ptr[i] != '\0'; i++)
+for (i = 0; src[i] != '\0'; i++)
 {
 	_putchar(dest[i]);
-	if (ptr[i] == '\0')
+	if (src[i] == '\0')
 	{
-		dest[i+1] = ptr[i+1];
+		dest[i+1] = src[i+1];
 		_putchar(dest[i+1]);
 	}
 }
