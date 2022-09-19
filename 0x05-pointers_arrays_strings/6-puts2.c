@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
-* _puts2 - print every other
+* puts2 - print every other
+* Description: every other one
 * @str: pointer to int
 * Return: void
 */
