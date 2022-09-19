@@ -23,7 +23,7 @@ str++;
 
 if (count % 2 == 0)
 {
-for (i = count/2; i < count; i++)
+for (i = count / 2; i < count; i++)
 {
 _putchar(ptr[i]);
 }
@@ -31,7 +31,7 @@ _putchar('\n');
 }
 else
 {
-for (i = (count-1)/2; i <= count; i++)
+for (i = (count - 1) / 2; i < count; i++)
 {
 _putchar(ptr[i]);
 }
