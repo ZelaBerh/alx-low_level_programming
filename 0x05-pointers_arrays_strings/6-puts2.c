@@ -14,7 +14,7 @@ int i;
 
 ptr = str;
 
-for (i = 0; ptr[i] != '\0'; i = i +2)
+for ( i = 0; ptr[i] != '\0'; i = i +2)
 {
 _putchar(ptr[i]);
 }
