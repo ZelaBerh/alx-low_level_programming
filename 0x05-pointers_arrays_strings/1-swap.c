@@ -4,7 +4,6 @@
 * swap_int - swap numbers
 * @a: pointer to int
 * @b: pointer to int
-* @c: intermediary
 * Return: void
 */
 
