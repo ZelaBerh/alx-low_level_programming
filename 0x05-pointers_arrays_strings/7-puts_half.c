@@ -31,7 +31,7 @@ _putchar('\n');
 }
 else
 {
-for (i = (count - 1) / 2; i < count; i++)
+for (i = (count + 1) / 2; i < count; i++)
 {
 _putchar(ptr[i]);
 }
