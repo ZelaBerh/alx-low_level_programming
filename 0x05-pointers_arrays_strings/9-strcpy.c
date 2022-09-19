@@ -11,9 +11,9 @@
 char *_strcpy(char *dest, char *src)
 {
 
-int i;
+int i = 0;
 
-
+/*
 for (i = 0; src[i] != '\0'; i++)
 {
 	dest[i] = src[i];
@@ -22,7 +22,20 @@ for (i = 0; src[i] != '\0'; i++)
 		dest[i+1] = src[i+1];
 	}
 }
+*/
 
+while(src[i] != '\0')
+{
+	dest[i] = src[i];
+	i++;
+}
+
+while(src[i] != '\0')
+{
+	_putchar(dest[i]);
+	i++;
+}
+/*
 for (i = 0; src[i] != '\0'; i++)
 {
 	_putchar(dest[i]);
@@ -32,7 +45,7 @@ for (i = 0; src[i] != '\0'; i++)
 		_putchar(dest[i+1]);
 	}
 }
-
+*/
 return (0);
 
 }
