@@ -13,7 +13,7 @@ void print_rev(char *s)
 char *ptr;
 ptr = s;
 
-int count; 
+int count;
 int c;
 char *begin, *end, temp;
 
