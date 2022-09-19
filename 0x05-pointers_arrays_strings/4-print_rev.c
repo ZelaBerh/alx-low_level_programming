@@ -29,8 +29,9 @@ ptr++;
 
 for ( j = count; j >= 0; j--)
 {
-_putchar(ptr[j]);
+_putchar(*ptr[j]);
 }
 
 _putchar('\n');
+
 }
