@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _puts - print string
+* _puts - print s
 * @str: pointer to int
 * Return: void
 */

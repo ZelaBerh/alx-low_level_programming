@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _strlen - string length
+* _strlen - s length
 * @s: pointer to int
 * Return: void
 */
