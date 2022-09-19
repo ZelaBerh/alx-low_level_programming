@@ -6,7 +6,10 @@
 * Return: void
 */
 
+#include<stdio.h>
+ 
 int string_length(char *pointer);
+void print_rev(char *s);
 
 void print_rev(char *s)
 {
@@ -21,7 +24,9 @@ begin = s;
 end = s;
 
 for ( c = 0 ; c < ( length - 1 ) ; c++ )
+{
 end++;
+}
 
 for ( c = 0 ; c < length/2 ; c++ ) 
 {
@@ -32,7 +37,7 @@ temp = *end;
 begin++;
 end--;
 }
-_putchar('\n');
+
 
 }
 
@@ -45,7 +50,6 @@ while( *(pointer+c) != '\0' )
 {
 c++;
 }
-
 
 return c;
 }
