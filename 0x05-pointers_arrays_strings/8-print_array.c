@@ -2,7 +2,8 @@
 
 /**
 * print_array - print n arrays
-* @str: pointer to int
+* @a: array
+* @b: number
 * Return: void
 */
 
@@ -14,10 +15,16 @@ int i;
 
 for ( i = 0; i <= n; i++)
 {
-	if ( i != n)
-		printf("%d, ", a[i]);
-	else
-		printf("%d", a[i]);
+if ( i != n)
+{
+printf("%d, ", a[i]);
+}
+
+else
+{
+printf("%d", a[i]);
+}
+
 }
 
 }
