@@ -1,3 +1,4 @@
+#include<stdio.h>
 #include "main.h"
 
 /**
@@ -6,10 +7,19 @@
 * Return: void
 */
 
-#include<stdio.h>
  
-int string_length(char *pointer);
-void print_rev(char *s);
+int string_length(char *pointer)
+{
+int c = 0;
+
+while( *(pointer+c) != '\0' )
+{
+c++;
+}
+
+return c;
+}
+
 
 void print_rev(char *s)
 {
@@ -41,15 +51,3 @@ end--;
 
 }
 
-int string_length(char *pointer)
-{
-
-int c = 0;
-
-while( *(pointer+c) != '\0' )
-{
-c++;
-}
-
-return c;
-}
