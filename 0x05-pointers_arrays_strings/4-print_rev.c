@@ -13,9 +13,12 @@ void print_rev(char *s)
 char *ptr;
 ptr = s;
 
-int count = 0; 
+int count; 
 int c;
 char *begin, *end, temp;
+
+
+count = 0;
 
 while (*ptr != '\0')
 {
