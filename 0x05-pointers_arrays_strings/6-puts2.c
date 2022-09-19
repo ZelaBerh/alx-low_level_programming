@@ -12,14 +12,22 @@ void puts2(char *str)
 
 char *ptr;
 int i;
+int count = 0;
 
 ptr = str;
 
+while (*str != '\0')
+{
+count++;
+str++;
+}
+
 for (i = 0; ptr[i] != '\0'; i = i + 2)
 {
-_putchar(ptr[i]);
-if (ptr[i] == 'H')
+if (count >= 2 && ptr[i] == 'H')
 	break;
+_putchar(ptr[i]);
+
 }
 _putchar('\n');
 
