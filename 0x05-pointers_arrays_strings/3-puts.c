@@ -9,7 +9,18 @@
 void _puts(char *str)
 {
 
-_putchar(&str);
+char *ptr;
+int i;
+
+ptr = str; //ptr references str
+
+for(i = 0; ptr[i] != '\0'; i++)
+{
+_putchar(i);
 _putchar('\n');
+/*printf("&str[%d] = %p\n",i,ptr+i);*/
+}
+
+return 0;
 
 }
