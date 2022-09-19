@@ -18,6 +18,8 @@ ptr = str;
 for (i = 0; ptr[i] != '\0'; i = i + 2)
 {
 _putchar(ptr[i]);
+if (ptr[i] == 'H')
+	break;
 }
 _putchar('\n');
 
