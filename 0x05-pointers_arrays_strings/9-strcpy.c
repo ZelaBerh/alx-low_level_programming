@@ -29,10 +29,6 @@ while(src[i] != '\0')
 	dest[i] = src[i];
 	i++;
 }
-if (src[i] == '\0')
-{
-	dest[i+1] = src[i+1];
-}
 
 
 while(src[i] != '\0')
@@ -40,11 +36,6 @@ while(src[i] != '\0')
 	_putchar(dest[i]);
 	i++;
 }
-if (src[i] == '\0')
-	{
-		dest[i+1] = src[i+1];
-		_putchar(dest[i+1]);
-	}
 
 /*
 for (i = 0; src[i] != '\0'; i++)
