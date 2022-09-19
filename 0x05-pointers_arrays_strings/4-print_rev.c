@@ -9,7 +9,7 @@
 
 void print_rev(char *s)
 {
-char *ptr, b;
+char *ptr, *b;
 int j;
 /*char str[100];*/
 int count = 0;
