@@ -26,4 +26,6 @@ for ( i = 0; ptr != '\0'; i++)
 	_putchar(dest[i]);
 }
 
+return (0);
+
 }
