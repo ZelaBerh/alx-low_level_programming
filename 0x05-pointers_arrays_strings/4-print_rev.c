@@ -11,13 +11,11 @@ void print_rev(char *s)
 {
 
 char *ptr;
-ptr = s;
-
 int count;
 int c;
 char *begin, *end, temp;
 
-
+ptr = s;
 count = 0;
 
 while (*ptr != '\0')
