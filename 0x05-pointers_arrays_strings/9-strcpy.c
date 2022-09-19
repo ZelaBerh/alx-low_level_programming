@@ -16,12 +16,12 @@ char *ptr;
 
 ptr = src;
 
-for ( i = 0; ptr != '\0'; i++)
+for ( i = 0; ptr[i] != '\0'; i++)
 {
 	dest[i] = ptr[i];
 }
 
-for ( i = 0; ptr != '\0'; i++)
+for ( i = 0; ptr[i] != '\0'; i++)
 {
 	_putchar(dest[i]);
 }
