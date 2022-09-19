@@ -17,7 +17,6 @@ ptr = str;
 for (i = 0; ptr[i] != '\0'; i++)
 {
 _putchar(ptr[i]);
-/*printf("&str[%d] = %p\n",i,ptr+i);*/
 }
 _putchar('\n');
 
