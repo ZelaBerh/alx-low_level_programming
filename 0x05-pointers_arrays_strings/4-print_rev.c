@@ -13,7 +13,8 @@ void print_rev(char *s)
 char *ptr;
 ptr = s;
 
-int count = 0, c;
+int count = 0; 
+int c;
 char *begin, *end, temp;
 
 while (*ptr != '\0')
