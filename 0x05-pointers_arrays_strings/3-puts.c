@@ -12,9 +12,9 @@ void _puts(char *str)
 char *ptr;
 int i;
 
-ptr = str; 
+ptr = str;
 
-for(i = 0; ptr[i] != '\0'; i++)
+for (i = 0; ptr[i] != '\0'; i++)
 {
 _putchar(ptr[i]);
 /*printf("&str[%d] = %p\n",i,ptr+i);*/
