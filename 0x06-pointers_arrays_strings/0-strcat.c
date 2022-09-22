@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * _strcat - string concatenate
- * @dest: String1
- * @src: String2
+ * _strcat - string concatination
+ * @dest: String
+ * @src: String
  * Return: String
  */
 
