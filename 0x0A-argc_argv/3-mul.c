@@ -8,23 +8,23 @@
  */
 
 
-int main(int argc, char **argv)
+int main(int argc, char *argv)
 {
-	int i;
-	int sum = 0;
+int i;
+int sum = 0;
 
-	if (argc > 1)
-	{
-		for (i = 1; i < argc; i++)
-		{
-			sum += argv[i];
-		}
-		printf("%d", sum);
-		return (0);
-	}
-	else
-	{
-		printf("Error");
-		return (1);
-	}
+if (argc > 1)
+{
+for (i = 1; i < argc; i++)
+{
+sum += argv[i];
+}
+printf("%d", sum);
+return (0);
+}
+else
+{
+printf("Error");
+return (1);
+}
 }
