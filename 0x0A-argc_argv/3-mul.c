@@ -9,7 +9,7 @@
  */
 
 
-int main(int argc, char *argv[])
+int main(__attribute__((unused)) int argc, char *argv[])
 {
 int i;
 int mul = 1;
