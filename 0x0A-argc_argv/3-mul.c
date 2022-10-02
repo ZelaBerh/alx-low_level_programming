@@ -14,18 +14,20 @@ int main(int argc, char *argv[])
 int i;
 int mul = 1;
 
-if (argc >= 3)
+
+if (argv[1] == NULL || argv[2] == NULL)
 {
 	printf("Error\n");
 	return (1);
 }
-else if (argv[1] != NULL || argv[2] != NULL)
+else
 {
-	for (i = 1; i < 3; i++)
+for (i = 1; i < 3; i++)
 		{
 			mul = mul * atoi(argv[i]);
 		}
 	printf("%d\n", mul);
+}
 }
 return (0);
 }
