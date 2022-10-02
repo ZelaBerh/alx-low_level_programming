@@ -19,7 +19,7 @@ if (argc >= 3)
 	printf("Error\n");
 	return (1);
 }
-if (argv[1] != NULL || argv[2] != NULL)
+else if (argv[1] != NULL || argv[2] != NULL)
 {
 	for (i = 1; i < 3; i++)
 		{
