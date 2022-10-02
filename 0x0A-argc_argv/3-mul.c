@@ -1,31 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
- * main - prints the product
+ * main - print product of two numbers
  * @argc: number of arguments
  * @argv: array of arguments
- * Return: 0
+ * Return: (0)
  */
-
 
 int main(__attribute__((unused)) int argc, char *argv[])
 {
-		int i;
-		int mul = 1;
+	int mul = 0;
 
-		if (argv[1] != NULL && argv[2] != NULL)
-		{
-				for (i = 1; i < 3; i++)
-				{
-						mul = mul * atoi(argv[i]);
-				}
-				printf("%d\n", mul);
-		}
-		else
-		{
-				printf("Error\n");
-				return (1);
-		}
-		return (0);
+	if (argv[1] == NULL || argv[2] == NULL)
+	{
+		printf("Error\n");
+		return (1);
+	}
+	else
+	{
+		mul = atoi(argv[1]) * atoi(argv[2]);
+		printf("%d\n", mul);
+	}
+	return (0);
 }
