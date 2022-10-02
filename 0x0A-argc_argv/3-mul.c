@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - prints the number of arguments passed into it
+ * main - prints the product
  * @argc: number of arguments
  * @argv: array of arguments
  * Return: (0)
@@ -12,15 +12,15 @@
 int main(int argc, char *argv)
 {
 int i;
-int sum = 1;
+int mul = 1;
 
-if (argc > 1)
+if (argv[1] != NULL || argv[2] != NULL)
 {
-for (i = 1; i < argc; i++)
+for (i = 1; i < 3; i++)
 {
-sum = sum * atoi(argv[i]);
+mul = mul * atoi(argv[i]);
 }
-printf("%d", sum);
+printf("%d\n", mul);
 }
 else
 {
