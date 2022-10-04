@@ -4,9 +4,9 @@
 #include "main.h"
 
 /**
- * _strdup - creates arrays
- * @str: 
- * Return: array
+ * _strdup - copies strings
+ * @str: string
+ * Return: pointer
  */
 
 
@@ -17,11 +17,16 @@ char *_strdup(char *str)
 char *lin;
 int i, length;
 
+if (str == NULL)
+{
+	return (NULL);
+}
+
 length = strlen (str);
 
 lin = malloc((length + 1) * sizeof(char));
 
-if (str == NULL || str == 0)
+if (lin == NULL)
 {
 	return (NULL);
 }
