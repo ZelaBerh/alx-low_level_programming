@@ -21,7 +21,7 @@ unsigned int i;
 *	lin = (char *) malloc(size * sizeof(char));
 *}
 */
-lin = (char *) malloc(size * sizeof(char));
+lin = malloc(size * sizeof(char));
 if (size <= 0)
 {
 	return (NULL);
