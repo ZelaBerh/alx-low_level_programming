@@ -22,7 +22,7 @@ if (str == NULL)
 	return (NULL);
 }
 
-length = strlen (str);
+length = strlen(str);
 
 lin = malloc((length + 1) * sizeof(char));
 
