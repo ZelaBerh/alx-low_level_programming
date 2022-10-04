@@ -21,7 +21,7 @@ length = strlen (str);
 
 lin = malloc(length * sizeof(char));
 
-if (str == NULL)
+if (str == NULL || str == 0)
 {
 	return (NULL);
 }
