@@ -26,7 +26,12 @@ if (size > 0)
 	lin = malloc(size * sizeof(char));
 }
 
-if (size > 0)
+if (lin == 0)
+{
+	return (NULL);
+}
+
+else
 {
 	for (i = 0; i < size; i++)
 	{
