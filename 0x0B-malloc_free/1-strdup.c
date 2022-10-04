@@ -19,6 +19,8 @@ int i, length;
 
 length = strlen (str);
 
+lin = malloc(length * sizeof(char));
+
 if (str == NULL)
 {
 	return (NULL);
