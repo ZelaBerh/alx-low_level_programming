@@ -52,9 +52,8 @@ for (j = one; j < two; j++)
 		*(lin + j) = *(s2 + j);
 	}
 
-	*(lin + two) = '\0';
+	/* *(lin + two) = '\0'; */
 }
-	
 
 	return (lin);
 
