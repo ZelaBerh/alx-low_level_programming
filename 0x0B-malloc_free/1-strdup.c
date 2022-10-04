@@ -19,21 +19,18 @@ int i, length;
 
 length = strlen (str);
 
-lin = malloc(length * sizeof(char));
+lin = malloc((length + 1) * sizeof(char));
 
 if (str == NULL || str == 0)
 {
 	return (NULL);
 }
-
 else
 {
-
-for (i = 0; i < length; i++)
-{
-	*(lin + i) = *(str + i);
-}
-
+	for (i = 0; i < length; i++)
+	{
+		*(lin + i) = *(str + i);
+	}
 }
 
 return (lin);
