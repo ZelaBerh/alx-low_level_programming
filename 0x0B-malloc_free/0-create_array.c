@@ -30,7 +30,7 @@ else
 {
 	for (i = 0; i < size; i++)
 	{
-		ptr[i] = c;
+		*(ptr + i) = c;
 	}
 }
 return (ptr);
