@@ -37,17 +37,24 @@ char *str_concat(char *s1, char *s2)
 	return (NULL);
 	}
 
-	for (i = 0; i < one; i++)
+if (s1 != NULL)
+{
+for (i = 0; i < one; i++)
 	{
 		*(lin + i) = *(s1 + i);
 	}
-
-	for (j = one; j < two; j++)
+}
+	
+if (s2 != NULL)
+{
+for (j = one; j < two; j++)
 	{
 		*(lin + j) = *(s2 + j);
 	}
 
 	*(lin + two) = '\0';
+}
+	
 
 	return (lin);
 
