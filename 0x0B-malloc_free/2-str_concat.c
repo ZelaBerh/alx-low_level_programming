@@ -4,14 +4,14 @@
 #include "main.h"
 
 /**
- * _strdup - copies strings
- * @str: string
+ * str_concat - concatenates
+ * @s1: string
+ * @s2: string
  * Return: pointer
  */
 
 char *str_concat(char *s1, char *s2)
 {
-
 	char *lin;
 	int i, one, two, j, length;
 
@@ -40,7 +40,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	if (s2 != NULL)
 	{
-		for (j = one; j < two; j++)
+		for (j = one + 1; j < two; j++)
 		{
 			*(lin + j) = *(s2 + j);
 		}
