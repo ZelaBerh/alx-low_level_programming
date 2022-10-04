@@ -18,9 +18,19 @@ char *str_concat(char *s1, char *s2)
 	one = strlen(s1);
 	two = strlen(s2);
 
+	if (s1 == NULL)
+	{
+		s1 = '';
+	}
+
+	if (s2 == NULL)
+	{
+		s2 = '';
+	}
+
 	length = one + two;
 
-	lin = malloc(length * sizeof(char));
+	lin = malloc((length + 1) * sizeof(char));
 
 	for (i = 0; i < one; i++)
 	{
@@ -31,6 +41,8 @@ char *str_concat(char *s1, char *s2)
 	{
 		*(lin + j) = *(s2 + j);
 	}
+
+	*(lin + two) = '\0';
 
 	return (lin);
 
