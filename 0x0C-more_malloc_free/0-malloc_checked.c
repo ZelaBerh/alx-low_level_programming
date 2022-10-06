@@ -4,7 +4,7 @@
 
 /**
  * malloc_checked - allocates memory
- * 
+ *
  * @b: number of bytes
  * Return: nothing
  */
