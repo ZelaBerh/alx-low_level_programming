@@ -1,17 +1,32 @@
-#include <stdlib.h>
-#include <string.h>
 #include "main.h"
+#include <stdlib.h>
 
 /**
- * array_range - allocates memory
+ * *array_range - is function that creates an ptr
+ *@max: is value to int.
+ *@min: is value to int.
  *
- * @max: array
- * @min: bytes
- * Return: pointer
- */
-
+ * Return: the pointer to the new ptr.
+**/
 
 int *array_range(int min, int max)
 {
+int i;
+int *a;
 
+if (min > max)
+{
+return (NULL);
+}
+a = malloc((max - min + 1) * sizeof(*a));
+if (a == NULL)
+{
+return (NULL);
+}
+
+for (i = 0; min <= max; i++, min++)
+{
+a[i] = min;
+}
+return (a);
 }

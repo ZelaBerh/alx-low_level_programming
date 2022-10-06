@@ -1,39 +1,28 @@
-#include <stdlib.h>
-#include <string.h>
 #include "main.h"
-
+#include <stdlib.h>
 /**
- * string_nconcat - allocates memory
- *
- * @nmemb: array
- * @size: bytes
- * Return: pointer
+ * _calloc - allocates memory for an ptr
+ * @nmemb: number of elements.
+ * @size: element's size.
+ * Return: returns a pointer to an ptr of elements.
  */
-
-
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-
+unsigned int i;
 char *ptr;
-int i;
 
-if ( nmemb == 0 || size == 0)
+if (nmemb == 0 || size == 0)
 {
-	return(NULL);
+return (NULL);
 }
-
-ptr = malloc(sizeof(size) * nmemb);
-
-if ( ptr == NULL)
+ptr = malloc(nmemb * size);
+if (ptr == NULL)
 {
-	return(NULL);
+return (NULL);
 }
-
 for (i = 0; i < nmemb; i++)
 {
-*(ptr + i) = 0;
+*(ptr + (i * size)) = 0;
 }
-
 return (ptr);
-
 }
