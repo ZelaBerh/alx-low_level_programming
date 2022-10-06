@@ -11,21 +11,21 @@
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
-	void *mem;
-	char *ptr_copy, *filler;
-	unsigned int index;
+	void *ptr;
+	char *ptr_copy, *lin;
+	unsigned int i;
 
 	if (new_size == old_size)
 		return (ptr);
 
 	if (ptr == NULL)
 	{
-		mem = malloc(new_size);
+		ptr = malloc(new_size);
 
-		if (mem == NULL)
+		if (ptr == NULL)
 			return (NULL);
 
-		return (mem);
+		return (ptr);
 	}
 
 	if (new_size == 0 && ptr != NULL)
@@ -35,19 +35,19 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	}
 
 	ptr_copy = ptr;
-	mem = malloc(sizeof(*ptr_copy) * new_size);
+	ptr = malloc(sizeof(*ptr_copy) * new_size);
 
-	if (mem == NULL)
+	if (ptr == NULL)
 	{
 		free(ptr);
 		return (NULL);
 	}
 
-	filler = mem;
+	lin = ptr;
 
-	for (index = 0; index < old_size && index < new_size; index++)
-		filler[index] = *ptr_copy++;
+	for (i = 0; i < old_size && i < new_size; i++)
+		lin[i] = *ptr_copy++;
 
 	free(ptr);
-	return (mem);
+	return (ptr);
 }
