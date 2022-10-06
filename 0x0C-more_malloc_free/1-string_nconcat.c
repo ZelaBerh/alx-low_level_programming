@@ -5,8 +5,10 @@
 /**
  * string_nconcat - allocates memory
  *
- * @b: number of bytes
- * Return: nothing
+ * @s1: string
+ * @s2: string
+ * @n: number of bytes
+ * Return: pointer
  */
 
 
