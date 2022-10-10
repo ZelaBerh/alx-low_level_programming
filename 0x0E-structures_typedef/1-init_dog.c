@@ -3,10 +3,10 @@
 /**
  * init_dog - initialize a variable
  * 
- * @param d: dog
- * @param name: name
- * @param age: age
- * @param owner: owner
+ * @d: dog
+ * @name: name
+ * @age: age
+ * @owner: owner
  */
 
 
