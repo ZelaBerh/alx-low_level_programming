@@ -6,7 +6,6 @@
  * print_numbers - Returns numbers separated by a char
  * @n: number of paramters
  * @separator: goes between the arguments
- * Return: print
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
