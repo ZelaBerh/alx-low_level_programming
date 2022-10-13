@@ -5,9 +5,7 @@
 /**
  * sum_them_all - returns sums of arguments
  * @n: number of arguments
- * 
  * Return: sum
- * 
  */
 
 
