@@ -17,16 +17,16 @@ va_start(args, n);
 
 if (separator != NULL)
 {
-for (i = 0; i < n; i++)
-{
-	if (i == (n - 1))
+	for (i = 0; i < n; i++)
 	{
-	printf("%d", va_arg(args, int));
-	break;
+		if (i == (n - 1))
+		{
+		printf("%d", va_arg(args, int));
+		break;
+		}
+		printf("%d", va_arg(args, int));
+		printf("%s", separator);
 	}
-	printf("%d", va_arg(args, int));
-	printf("%s", separator);
-}
 }
 va_end(args);
 printf("\n");
