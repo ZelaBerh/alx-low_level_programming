@@ -1,16 +1,14 @@
-#include <stdarg.h>
 #include "variadic_functions.h"
+#include <stdarg.h>
 
 /**
-* sum_them_all - returns sums of arguments
-* @n: number of arguments
-* Return: sum
-*/
-
-
+ * sum_them_all - Returns the sum
+ * @n: number of paramters
+ *
+ * Return: Sum
+ */
 int sum_them_all(const unsigned int n, ...)
 {
-
 va_list nums;
 unsigned int i, sum = 0;
 
