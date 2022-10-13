@@ -6,7 +6,7 @@
  * sum_them_all - returns sums of arguments
  * @n: number of arguments
  * 
- * Return: sum 
+ * Return: sum
  * 
  */
 
@@ -22,6 +22,10 @@ int i, sum = 0;
 for (i = 0; i < n; i++)
 {
 	sum += va_arg(nums, int);
+	if (n == 0)
+	{
+		return (0);
+	}
 }
 
 va_end(nums);
